@@ -1,0 +1,77 @@
+.khoso {
+    padding-left: 55%;
+}
+
+h1{
+    margin-left:10% ;
+    padding-top: -90px;
+    margin-right: 20%;
+}
+
+span{
+    color: rgb(120, 36, 36);
+}
+
+
+#projects .project-img {
+	flex-basis: 50%;
+	height: 300px;
+	overflow: hidden;
+	position: relative;
+}
+#projects .project-img:after {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+	opacity: 0.7;
+}
+#projects .project-img img {
+	transition: 0.3s ease transform;
+}
+#projects .project-item:hover .project-img img {
+	transform: scale(1.1);
+}
+ 
+ .button{
+    color: black;
+    background-color: white;
+   border-radius:10%;
+   margin-top: 3%;
+   margin-left: 36%;
+ }
+
+ .yho{
+	width:50% ;
+	height: 35%;
+	border: 35px solid rgb(181, 139, 166);
+	z-index: -1;
+	right:50%;
+	height: 35%;
+	}
+ 
+.yhoo2{
+	width:50% ;
+	height: 55%  ;
+	border: 35px  solid burlywood;
+	z-index: -1;
+	
+	
+	
+	}
+
+.hr{
+	color: burlywood;
+	width: 8%;
+	height: 10%;
+	padding:45% ;
+}
+
+.yhj{
+	text-align: center;
+}
+ 
+.yh
